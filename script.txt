@@ -1,0 +1,15 @@
+https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+
+pip install apache-airflow
+
+airflow db init
+
+
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.7.2/docker-compose.yaml'
+
+docker compose up
+
+
+astro dev init
+
+astro dev start
